@@ -1,7 +1,7 @@
 {
   "name": "clueless",
   "description": "Watches and compiles LESS-files, calls callback on change",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "keywords": [],
   "main": "src/clueless.js",
   "scripts": {
