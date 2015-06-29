@@ -1,0 +1,34 @@
+{
+  "name": "clueless",
+  "description": "Watches and compiles LESS-files, calls callback on change",
+  "version": "1.0.0",
+  "keywords": [],
+  "main": "src/clueless.js",
+  "scripts": {
+    "lint": "gulp lint",
+    "prepublish": "npm prune && gulp test",
+    "test": "gulp test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:rexxars/clueless.git"
+  },
+  "author": "Espen Hovlandsdal <espen@hovlandsdal.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "chai": "^3.0.0",
+    "eslint": "^0.24.0",
+    "gulp": "^3.9.0",
+    "gulp-eslint": "^0.14.0",
+    "gulp-istanbul": "^0.10.0",
+    "gulp-mocha": "^2.1.2",
+    "istanbul": "^0.3.17",
+    "vgno-coding-standards": "^1.0.6"
+  },
+  "dependencies": {
+    "less": "^2.5.1",
+    "lodash.merge": "^3.3.1",
+    "socket.io-client": "^1.3.3",
+    "walk": "^2.3.9"
+  }
+}
