@@ -1,5 +1,7 @@
 # clueless
 
+** ABANDONED ** - No further development or maintenance planned.
+
 Watches and compiles LESS-files, calls callback on change.
 
 ## Installing
